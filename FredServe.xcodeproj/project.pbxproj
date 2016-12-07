@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE8D04641D2C19F000EB6F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D04631D2C19F000EB6F97 /* AppDelegate.swift */; };
+		BE8D04661D2C19F000EB6F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8D04651D2C19F000EB6F97 /* Assets.xcassets */; };
+		BE8D04691D2C19F000EB6F97 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8D04671D2C19F000EB6F97 /* MainMenu.xib */; };
+		BE8D04751D2C54EA00EB6F97 /* WrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D04741D2C54EA00EB6F97 /* WrapperView.swift */; };
+		D36CA36F0F6702FFA3CB5CFE /* Pods_FredServe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A4E43FECF9B00858D41485 /* Pods_FredServe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40E92411BE0E23F92889461F /* Pods-FredServe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FredServe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FredServe/Pods-FredServe.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8D04601D2C19F000EB6F97 /* FredServe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FredServe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D04631D2C19F000EB6F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE8D04651D2C19F000EB6F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8D04681D2C19F000EB6F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE8D046A1D2C19F000EB6F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8D04741D2C54EA00EB6F97 /* WrapperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapperView.swift; sourceTree = "<group>"; };
+		C45B50CB88D1EF1CE07BADCF /* Pods-FredServe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FredServe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FredServe/Pods-FredServe.release.xcconfig"; sourceTree = "<group>"; };
+		E6A4E43FECF9B00858D41485 /* Pods_FredServe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FredServe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8D045D1D2C19F000EB6F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36CA36F0F6702FFA3CB5CFE /* Pods_FredServe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8A1964736DE06BD3D73E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A4E43FECF9B00858D41485 /* Pods_FredServe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACFD10A6832A7948116854C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40E92411BE0E23F92889461F /* Pods-FredServe.debug.xcconfig */,
+				C45B50CB88D1EF1CE07BADCF /* Pods-FredServe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE8D04571D2C19F000EB6F97 = {
+			isa = PBXGroup;
+			children = (
+				BE8D04621D2C19F000EB6F97 /* FredServe */,
+				BE8D04611D2C19F000EB6F97 /* Products */,
+				ACFD10A6832A7948116854C0 /* Pods */,
+				7E8A1964736DE06BD3D73E44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8D04611D2C19F000EB6F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D04601D2C19F000EB6F97 /* FredServe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8D04621D2C19F000EB6F97 /* FredServe */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D04631D2C19F000EB6F97 /* AppDelegate.swift */,
+				BE8D04651D2C19F000EB6F97 /* Assets.xcassets */,
+				BE8D04671D2C19F000EB6F97 /* MainMenu.xib */,
+				BE8D046A1D2C19F000EB6F97 /* Info.plist */,
+				BE8D04741D2C54EA00EB6F97 /* WrapperView.swift */,
+			);
+			path = FredServe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8D045F1D2C19F000EB6F97 /* FredServe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8D046D1D2C19F000EB6F97 /* Build configuration list for PBXNativeTarget "FredServe" */;
+			buildPhases = (
+				B9DDE2EF45AAC854C6A70075 /* [CP] Check Pods Manifest.lock */,
+				BE8D045C1D2C19F000EB6F97 /* Sources */,
+				BE8D045D1D2C19F000EB6F97 /* Frameworks */,
+				BE8D045E1D2C19F000EB6F97 /* Resources */,
+				08D009764D4DD45DF14FD6A0 /* [CP] Embed Pods Frameworks */,
+				F8062B8F89E24988FB876CD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FredServe;
+			productName = FredServe;
+			productReference = BE8D04601D2C19F000EB6F97 /* FredServe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8D04581D2C19F000EB6F97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Spies & Assassins";
+				TargetAttributes = {
+					BE8D045F1D2C19F000EB6F97 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BE8D045B1D2C19F000EB6F97 /* Build configuration list for PBXProject "FredServe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8D04571D2C19F000EB6F97;
+			productRefGroup = BE8D04611D2C19F000EB6F97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8D045F1D2C19F000EB6F97 /* FredServe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8D045E1D2C19F000EB6F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D04661D2C19F000EB6F97 /* Assets.xcassets in Resources */,
+				BE8D04691D2C19F000EB6F97 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08D009764D4DD45DF14FD6A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FredServe/Pods-FredServe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DDE2EF45AAC854C6A70075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8062B8F89E24988FB876CD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FredServe/Pods-FredServe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8D045C1D2C19F000EB6F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D04751D2C54EA00EB6F97 /* WrapperView.swift in Sources */,
+				BE8D04641D2C19F000EB6F97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE8D04671D2C19F000EB6F97 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8D04681D2C19F000EB6F97 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE8D046B1D2C19F000EB6F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8D046C1D2C19F000EB6F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE8D046E1D2C19F000EB6F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E92411BE0E23F92889461F /* Pods-FredServe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FredServe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spiesandassassins.FredServe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE8D046F1D2C19F000EB6F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45B50CB88D1EF1CE07BADCF /* Pods-FredServe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FredServe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spiesandassassins.FredServe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8D045B1D2C19F000EB6F97 /* Build configuration list for PBXProject "FredServe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D046B1D2C19F000EB6F97 /* Debug */,
+				BE8D046C1D2C19F000EB6F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8D046D1D2C19F000EB6F97 /* Build configuration list for PBXNativeTarget "FredServe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D046E1D2C19F000EB6F97 /* Debug */,
+				BE8D046F1D2C19F000EB6F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8D04581D2C19F000EB6F97 /* Project object */;
+}
